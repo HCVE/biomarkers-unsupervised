@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rpy2 = "*"
+networkx = "*"
+numpy = "*"
+pandas = "*"
+plotly = "*"
+seaborn = "*"
+scikit-learn = "*"
+toolz = "*"
+matplotlib = "*"
+tabulate = "*"
+python-louvain = "*"
+cython = "*"
+swifter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[packages.hcve_lib]
+git = "https://github.com/HCVE/hcve_lib"
+editable = true
