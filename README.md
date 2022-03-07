@@ -11,3 +11,7 @@ pipenv shell
 pipenv install
 jupyter notebook
 ```
+
+## Notebook
+
+https://github.com/HCVE/biomarkers-unsupervised/blob/master/notebook.ipynb
