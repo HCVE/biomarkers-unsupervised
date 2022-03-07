@@ -15,14 +15,13 @@ toolz = "*"
 matplotlib = "*"
 tabulate = "*"
 python-louvain = "*"
-cython = "*"
+Cython = "*"
 swifter = "*"
+pyramda = "*"
+portalocker = "*"
+hcve-lib = "==0.1.5"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
-
-[packages.hcve_lib]
-git = "https://github.com/HCVE/hcve_lib"
-editable = true

@@ -1,11 +1,10 @@
 from abc import ABC
 from dataclasses import dataclass
-from typing import Any, List, Tuple, Optional, Dict, Generic, TypeVar, Union
+from typing import Any, List, Tuple, Optional, Dict, Generic, TypeVar, Union, TypedDict
 
 from hcve_lib.custom_types import DictAccess, ClassMapping, Printable, DataStructure
 from pandas import Series, DataFrame
 from sklearn.pipeline import Pipeline
-from typing_extensions import TypedDict
 
 T1 = TypeVar('T1')
 
